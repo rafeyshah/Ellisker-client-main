@@ -1,0 +1,58 @@
+@media screen and (max-width: 768px) {
+  .file-img {
+    width: 92.5% !important;
+  }
+}
+.file-upload-btn-holder {
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+.file-upload-btn {
+  width: 100px;
+  height: 100px;
+  background: none;
+  border: none;
+}
+.file-upload-btn-img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  border-radius: 14px;
+}
+.file-delete-btn-img {
+  cursor: pointer;
+  position: absolute;
+  width: 23px;
+  height: 23px;
+  bottom: -5px;
+  right: -5px;
+}
+.current-image-holder {
+  width: 352px;
+  height: 300px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+.thumbnails-row {
+  margin-left: -3px;
+}
+.profile-edit-view-input-label {
+  margin: 15px 0px 10px 8px;
+  font-size: 18px;
+  line-height: 21px;
+  color: #512f7c;
+}
+.profile-edit-view-input,
+.profile-edit-view-input:focus {
+  margin: 0px 0px 10px 8px;
+  padding: 8px 12px 8px 12px;
+  width: 97%;
+  background-color: transparent;
+  border: 1px solid #6a7bb1 !important;
+  border-radius: 10px;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: justify;
+  color: #6e6687;
+}

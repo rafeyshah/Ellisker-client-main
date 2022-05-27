@@ -1,0 +1,29 @@
+@media screen and (max-width: 768px) {
+  .dashboard-message-thread-view-header,
+  .dashboard-messages-view-header {
+    display: none !important;
+  }
+  .dashboard-messages-view-title {
+    margin-top: 30px !important;
+  }
+}
+.dashboard-messages-view-header {
+  padding-top: 9px;
+}
+.dashboard-messages-view-title {
+  cursor: default;
+  margin-top: 45px;
+  margin-left: 10px;
+  margin-bottom: 25px;
+  font-weight: 100;
+  font-size: 25px;
+  line-height: 30px;
+  color: #512f7c;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.dashboard-messages-list {
+  height: 426px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}

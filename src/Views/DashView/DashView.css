@@ -1,0 +1,16 @@
+.dashboard-container {
+	padding-top: 15px;
+}
+.dashboard-background {
+	background-image: url('../../../public/images/dashboard-bg.png');
+	background-size: cover;
+	min-height: 100%;
+	width: 100%;
+	height: auto;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.dashboard-messages-view {
+	padding-left: 30px;
+}

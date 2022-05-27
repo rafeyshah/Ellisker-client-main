@@ -1,0 +1,78 @@
+.dashboard-main-view-header {
+  padding-top: 20px;
+  padding-left: 30px;
+}
+.dashboard-main-view-header-search-wrap-mobile {
+  width: 80%;
+  position: relative;
+  border-bottom: 2px solid #ececec;
+  padding-bottom: 1px;
+  margin-bottom: 27px;
+}
+.dashboard-main-view-header-search-mobile {
+  height: 40px;
+  display: block;
+  width: 100%;
+  background: transparent;
+  font-weight: 300;
+  font-size: 16px;
+  color: #512f7c;
+}
+.dashboard-main-view-header-search-mobile::placeholder {
+  color: #512f7c;
+}
+.form-control-icon-mobile {
+  margin-top: 9px;
+  margin-left: 8px;
+  height: 17px;
+  width: 17px;
+}
+.dashboard-main-view-tab-list-mobile {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.dashboard-main-view-tab-title-mobile {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23.87px;
+  color: #ffffff;
+  padding: 0;
+  cursor: pointer;
+}
+.dashboard-main-view-tab-title-mobile-selected {
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  padding-bottom: 5px;
+}
+.cards-holder {
+  height: calc(100vh - 240px);
+  padding-left: 17px;
+  padding-right: 12px;
+  overflow-y: auto;
+}
+.dashboard-main-view-add-button-mobile {
+  background: linear-gradient(130.57deg, #8e63df 6.63%, #452260 100%);
+  border-radius: 17.5px;
+  border: none;
+  width: 40%;
+  font-size: 14px;
+  line-height: 17px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.dashboard-main-view-filter-icon-mobile {
+  width: 17.11px;
+  height: 11.68px;
+  margin-top: 8px;
+  cursor: pointer;
+}
+.dashboard-main-view-no-filter-icon-mobile {
+  margin-top: 3px;
+  width: 20px;
+  height: 19px;
+  cursor: pointer;
+}

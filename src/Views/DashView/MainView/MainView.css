@@ -1,0 +1,82 @@
+.dashboard-main-view-header-logo {
+  width: 164px;
+  height: 74px;
+}
+.dashboard-main-view-header-face {
+  background-size: cover;
+  border-radius: 50% 50% 50% 50%;
+  width: 100px;
+  height: 100px;
+}
+.dashboard-main-view-header-search-wrap {
+  width: 60%;
+  position: relative;
+  border-bottom: 2px solid #ececec;
+  padding-bottom: 1px;
+  margin-bottom: 27px;
+}
+.dashboard-main-view-header-search {
+  height: 40px;
+  display: block;
+  width: 100%;
+  background: transparent;
+  font-weight: 300;
+  font-size: 16px;
+  color: #512f7c;
+}
+.dashboard-main-view-header-search::placeholder {
+  color: #512f7c;
+}
+.form-control-icon {
+  margin-top: 9px;
+  margin-left: 8px;
+  height: 17px;
+  width: 17px;
+}
+.dashboard-main-view-tab-list {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.dashboard-main-view-tab-title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23.87px;
+  color: #ffffff;
+  padding: 0;
+  cursor: pointer;
+}
+.dashboard-main-view-tab-title-selected {
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  padding-bottom: 5px;
+}
+.cards-holder {
+  height: calc(100vh - 240px);
+  padding-left: 17px;
+  padding-right: 12px;
+  overflow-y: auto;
+}
+.dashboard-main-view-add-button {
+  background: linear-gradient(130.57deg, #8e63df 6.63%, #452260 100%);
+  border-radius: 17.5px;
+  border: none;
+  width: 40%;
+  font-size: 14px;
+  line-height: 17px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: #ffffff;
+}
+.dashboard-main-view-filter-icon {
+  margin-top: 7px;
+  width: 16px;
+  height: 10.92px;
+  cursor: pointer;
+}
+.dashboard-main-view-no-filter-icon {
+  margin-top: 3px;
+  width: 20px;
+  height: 19px;
+  cursor: pointer;
+}

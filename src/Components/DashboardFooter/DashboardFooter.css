@@ -1,0 +1,29 @@
+/* @media screen and (min-width: 768px) {
+	.dashboard-footer {
+		display: none;
+	}
+} */
+.dashboard-footer {
+	background-color: white;
+	opacity: 0.9;
+	height: 38px;
+}
+.dashboard-footer-home-icon {
+	cursor: pointer;
+	margin-top: 8px;
+	width: 20.72px;
+	height: 20.72px;
+}
+.dashboard-footer-chat-icon {
+	cursor: pointer;
+	margin-top: 8px;
+	width: 20.72px;
+	height: 20.72px;
+}
+.dashboard-footer-add-icon {
+	cursor: pointer;
+	position: fixed;
+	bottom: -2px;
+	width: 60px;
+	height: 60px;
+}

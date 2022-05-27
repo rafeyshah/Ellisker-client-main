@@ -1,0 +1,160 @@
+@media screen and (max-width: 768px) {
+  .home-login-form {
+    background-size: cover;
+    background-image: url('../../../public/images/mobile-background.jpg') !important;
+  }
+  .home-content {
+    display: none;
+  }
+  .carousel-indicators {
+    display: none;
+  }
+}
+@media screen and (max-width: 321px) {
+  .home-login-logo {
+    margin-top: 5px;
+    width: 140px !important;
+    height: 67px !important;
+  }
+}
+.carousel-indicators [data-bs-target] {
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 10px; /* change width */
+  height: 10px; /* change height */
+  padding: 0;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-radius: 100%; /* add border-radius */
+}
+.carousel-indicators {
+  position: fixed;
+  bottom: 300px;
+  z-index: 15;
+  margin: 0px 0px 0px 30px;
+  list-style: none;
+  text-align: center;
+  right: 80%;
+  flex-flow: column nowrap;
+}
+.carousel-indicators li {
+  display: block;
+  width: 10px;
+  height: 10px;
+  margin-bottom: 10px;
+}
+.my-carousel-img {
+  height: 100vh;
+}
+.my-carousel-btn {
+  display: none;
+}
+.home-content {
+  position: absolute;
+  z-index: 11;
+}
+.home-login-form {
+  position: absolute;
+  right: 0px;
+  z-index: 10;
+  height: 100%;
+  background-image: url('../../../public/images/background.png');
+  background-repeat: no-repeat;
+  /* opacity: 0.98; */
+}
+.home-login-logo {
+  width: 170px;
+  height: 80px;
+}
+.home-content-logo-holder {
+  padding: 80px 0px 30px 120px;
+}
+.home-login-logo-icons {
+  padding: 50px 50px 0px 40px;
+}
+.home-login-fb-insta-logo-holder {
+  padding-top: 19px;
+  min-width: 10px;
+}
+.home-login-logo-holder {
+  /* min-width: 167px; */
+  height: 70px;
+  /* margin-right: 105px; */
+}
+.home-login-fb-logo {
+  margin-right: 15px;
+  width: 9.78px;
+  height: 20.95px;
+}
+.home-login-instagram-logo {
+  width: 21.49px;
+  height: 21.49;
+}
+.home-content-logo {
+  width: 269.26px;
+  height: 113px;
+}
+.home-content-title {
+  padding: 0px 0px 50px 140px;
+  width: 580px;
+  height: 150px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 75px;
+  color: #ffffff;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.home-content-text {
+  padding: 20px 0px 0px 145px;
+  width: 500px;
+  height: 72px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 36px;
+  color: #ffffff;
+}
+.home-login-form-tab-list {
+  margin: 40px 30px 0px 0px;
+}
+.home-login-form-tab-title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  color: #ffffff;
+  padding: 0;
+  cursor: pointer;
+}
+@media screen {
+  @media screen and (max-width: 576px) {
+    .home-login-form-tab-title {
+      font-size: 20px;
+    }
+  }
+}
+@media screen and (max-width: 992px) and (min-width: 577px) {
+  .home-login-form-tab-title {
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .home-login-logo {
+    display: none;
+  }
+}
+.home-login-form-tab-title-selected {
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  padding-bottom: 5px;
+  width: 50%;
+}

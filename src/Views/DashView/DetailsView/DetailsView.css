@@ -1,0 +1,29 @@
+.group-details-description {
+	line-height: 17px;
+	text-align: justify;
+	cursor: default;
+	color: #6e6687;
+}
+.group-details-participants-title {
+	font-size: 21px;
+	line-height: 25px;
+	color: #512f7c;
+	mix-blend-mode: normal;
+	cursor: default;
+	opacity: 0.5;
+}
+.group-details-participants-title {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.group-details-participants-holder {
+	height: 380px;
+	overflow-y: auto;
+}
+.group-details-participant {
+	margin-bottom: 15px;
+	font-size: 16px;
+	line-height: 19px;
+	cursor: default;
+	color: #371b5b;
+}

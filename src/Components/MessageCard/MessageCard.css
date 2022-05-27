@@ -1,0 +1,32 @@
+.message-card-holder {
+	margin-left: 0px;
+	margin-bottom: 15px;
+	cursor: pointer;
+}
+.message-card-content {
+	padding-top: 10px;
+}
+.message-card-title {
+	font-size: 16px;
+	line-height: 19px;
+	color: #371b5b;
+}
+.message-card-text {
+	font-size: 12px;
+	line-height: 14px;
+	color: #766e8f;
+}
+.message-card-type-icon {
+	padding-top: 15px;
+}
+.message-card-icon {
+	position: relative;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.message-card-notification {
+	position: absolute;
+	right: calc(100% - 58px);
+	width: 21px;
+	height: 21px;
+}

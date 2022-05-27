@@ -1,0 +1,17 @@
+.footer-container {
+	padding: 13.5px;
+	margin-right: 0px;
+	/* margin-top: 136px; */
+	background: rgba(55, 27, 91, 0.7);
+	background-blend-mode: multiply;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+	color: #ffffff;
+
+	position: fixed;
+	height: 44px;
+	bottom: 0;
+	width: inherit;
+}
